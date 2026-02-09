@@ -1,0 +1,242 @@
+#mainlogo2022 {
+    width: 25%;
+    margin-bottom: 0%;
+    border-radius: 0;
+}
+
+.lineup-2022 {
+	/*background-image: url("../images/upload/2022/WavyBKG.jpg");*/
+	background-color: #bc3726;
+	background-repeat: no-repeat;
+  	background-attachment: fixed;
+	background-position: 50% 50%;
+	padding: 2em 0 0 0;
+}
+
+.flex-container {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  justify-content: center;
+  color: black;
+}
+
+.flex-container-div {
+    float: left;
+    width: 33.33%;
+}
+
+.flex-container:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+@media screen and (max-width: 600px) {
+    .flex-container-div {
+        width: 100%;
+    }
+}
+
+.solidBackground{
+	background-color: #ffffff;
+	margin: 5%;
+	padding: 2%;
+	border-radius: 25px;
+	
+}
+
+.big-sponsors li {
+    font-weight: bold;
+    font-size: 125%;
+}
+.big-sponsors li a {
+    font-weight: bold;
+    font-size: 125%;
+}
+.medium-sponsors li {
+    font-weight: bold;
+}
+.medium-sponsors li a {
+    font-weight: bold;
+}
+.small-sponsors li {
+}
+
+p,h3,h1{
+	font-family: 'Open Sans', sans-serif;
+	white-space: initial;
+}
+h3,h1{
+	text-align: center;
+}
+h1{
+	background-color: #bc3726;
+	padding: 1%;
+	margin: 0 30%;
+	margin-bottom: 2%;
+	color: white;
+}
+.event-schedule {
+    background-color: #bc3726;
+	padding: 1%;
+	margin: 0 30%;
+	margin-bottom: 2%;
+	color: white;
+    text-align: center;
+}
+h3{
+	font-size: 1.5em;
+	margin: 6% 0;
+}
+
+img{
+	display: block;
+ 	margin-left: auto;
+ 	margin-right: auto;
+ 	width: 60%;
+	margin-bottom: 5%;
+	border-radius: 25px;
+}
+.bandInfo{
+	padding: 0 12%;
+}
+ /* colored circles*/
+.circle1 {
+        border-radius: 50%;
+        width: 20px;
+        height: 20px;
+        padding: 5px;
+        background: #fff;
+        border: 4px solid black;
+        color: #000;
+        text-align: center;
+	  font-weight: bold;
+	  font-family: 'Open Sans', sans-serif;
+	  float: left;
+	  margin-right: 4%;
+
+      }
+.circle2 {
+        border-radius: 50%;
+        width: 20px;
+        height: 20px;
+        padding: 5px;
+        background: #fff;
+        border: 4px solid #ff9537;
+        color: #000;
+        text-align: center;
+	  font-weight: bold;
+	  font-family: 'Open Sans', sans-serif;
+	  float: left;
+	  margin-right: 4%;
+	 
+      }
+.circle3 {
+        border-radius: 50%;
+        width: 20px;
+        height: 20px;
+        padding: 5px;
+        background: #fff;
+        border: 4px solid #b8a0cc;
+        color: #000;
+        text-align: center;
+	  font-weight: bold;
+	  font-family: 'Open Sans', sans-serif;
+	  float: left;
+	  margin-right: 4%;
+	  
+      }
+.circle4 {
+        border-radius: 50%;
+        width: 20px;
+        height: 20px;
+        padding: 5px;
+        background: #fff;
+        border: 4px solid #fbdc33;
+        color: #000;
+        text-align: center;
+	  font-weight: bold;
+	  font-family: 'Open Sans', sans-serif;
+	  float: left;
+	  margin-right: 4%;
+	  
+      }
+.circle4 {
+        border-radius: 50%;
+        width: 20px;
+        height: 20px;
+        padding: 5px;
+        background: #fff;
+        border: 4px solid #fbdc33;
+        color: #000;
+        text-align: center;
+	  font-weight: bold;
+	  font-family: 'Open Sans', sans-serif;
+	  float: left;
+	  margin-right: 4%;
+	  
+      }
+.circle5 {
+        border-radius: 50%;
+        width: 20px;
+        height: 20px;
+        padding: 5px;
+        background: #fff;
+        border: 4px solid #009444;
+        color: #000;
+        text-align: center;
+	  font-weight: bold;
+	  font-family: 'Open Sans', sans-serif;
+	  float: left;
+	  margin-right: 4%;
+	  
+      }
+
+.circle6 {
+        border-radius: 50%;
+        width: 20px;
+        height: 20px;
+        padding: 5px;
+        background: #fff;
+        border: 4px solid #1babba;
+        color: #000;
+        text-align: center;
+	  font-weight: bold;
+	  font-family: 'Open Sans', sans-serif;
+	  float: left;
+	  margin-right: 4%;
+	  
+      }
+
+.circle7 {
+        border-radius: 50%;
+        width: 20px;
+        height: 20px;
+        padding: 5px;
+        background: #fff;
+        border: 4px solid #1d4498;
+        color: #000;
+        text-align: center;
+	  font-weight: bold;
+	  font-family: 'Open Sans', sans-serif;
+	  float: left;
+	  margin-right: 4%;
+	  
+      }
+
+.circle {
+        border-radius: 50%;
+        width: 20px;
+        height: 20px;
+        padding: 5px;
+        background: #fff;
+        border: 4px solid #000;
+        color: #000;
+        text-align: center;
+	  font-weight: bold;
+	  font-family: 'Open Sans', sans-serif;
+	  float: left;
+	  margin-right: 4%;
+	  
+      }
