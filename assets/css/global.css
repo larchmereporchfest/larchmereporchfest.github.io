@@ -971,5 +971,95 @@ box-shadow:         0px 5px 15px rgba(50, 50, 50, 0.75); }
 
 @media only screen and (-webkit-min-device-pixel-ratio: 2), 
 only screen and (min-device-pixel-ratio: 2) {
+	}
+
+
+/* LINEUP ITEMS ============================================================================= */
+
+.lineup-container {
+	display: grid;
+	grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+	gap: 20px;
+	padding: 20px;
+	max-width: 1400px;
+	margin: 0 auto;
+}
+
+.lineup-item {
+	background: rgba(255, 255, 255, 0.1);
+	border-radius: 8px;
+	overflow: hidden;
+	transition: transform 0.3s ease, box-shadow 0.3s ease;
+	cursor: pointer;
+}
+
+.lineup-item:hover {
+	transform: translateY(-5px);
+	box-shadow: 0 8px 20px rgba(0, 0, 0, 0.3);
+}
+
+.lineup-image {
+	width: 100%;
+	height: 250px;
+	overflow: hidden;
+	background: #000;
+}
+
+.lineup-image img {
+	width: 100%;
+	height: 100%;
+	object-fit: cover;
+	transition: transform 0.3s ease;
+}
+
+.lineup-item:hover .lineup-image img {
+	transform: scale(1.05);
+}
+
+.lineup-image img.no-crop {
+	object-fit: contain;
+}
+
+.lineup-description {
+	padding: 15px;
+	text-align: center;
+	font-size: 1.1em;
+	font-weight: 500;
+	color: #fff;
+	background: rgba(0, 0, 0, 0.3);
+	min-height: 50px;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
+@media only screen and (max-width: 959px) {
+	.lineup-container {
+		grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+		gap: 15px;
+		padding: 15px;
+	}
 	
+	.lineup-image {
+		height: 200px;
+	}
+}
+
+@media only screen and (max-width: 767px) {
+	.lineup-container {
+		grid-template-columns: repeat(auto-fill, minmax(150px, 1fr));
+		gap: 10px;
+		padding: 10px;
+	}
+	
+	.lineup-image {
+		height: 150px;
+	}
+	
+	.lineup-description {
+		font-size: 0.95em;
+		padding: 10px;
+		min-height: 40px;
+	}
+}
 }
