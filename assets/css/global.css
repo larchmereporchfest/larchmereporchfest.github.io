@@ -42,7 +42,6 @@ font-weight:100;
 }
 
 h2 { 
-margin-bottom : 0.5em;
 font-size : 2em;
 line-height : 1.00;
 font-weight:700;
@@ -1062,4 +1061,8 @@ only screen and (min-device-pixel-ratio: 2) {
 		min-height: 40px;
 	}
 }
+
+.lineup-header {
+  text-align: center;
+  margin-top: 0.5em;
 }
