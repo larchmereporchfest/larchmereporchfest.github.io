@@ -148,7 +148,7 @@ a:active {
 header a, footer a, .btn-block, .hdr_link { font-weight:300; text-decoration:none; }
 
 /* BUTTONS ===========================================================================  */
-.btn-block { display:inline-block; border-radius:12px; padding:8px; line-height:100%; border:1px solid #961c0d; background-color:#FFF; color:#961c0d; }
+.btn-block { display:inline-block; border-radius:12px; margin-bottom: 0.25em; padding:8px; line-height:100%; border:1px solid #961c0d; background-color:#FFF; color:#961c0d; }
 .btn-block:hover { background-color:#961c0d; color:#FFF; }
 .btn-block .medium { font-size:70%; }
 
