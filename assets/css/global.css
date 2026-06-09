@@ -903,9 +903,8 @@ box-shadow:         0px 5px 15px rgba(50, 50, 50, 0.75); }
 }
 
 
-/* GOOGLE MAP */
-#map { background:#EFEBE2; width:100%; height:100%; }
-#map-list-cnt { float:left; width:25%; height:100%; overflow:hidden; background:#EFEBE2; }
+#/* GOOGLE MAP */
+#map-list-cnt { float:left; width:25%; height:100%; overflow:hidden; background: transparent; }
 #map-list-cnt .porchlist { border-bottom:1px solid #E2DBD8; border-right:1px solid #999; color:#666; font-size:80%; padding:20px; cursor:pointer; }
 #map-list-cnt .porchlist h3 { color:#000; }
 #map-list-cnt .porchlist * { margin-bottom:3px; }
@@ -1072,6 +1071,7 @@ only screen and (min-device-pixel-ratio: 2) {
     margin: 1.25rem auto;
     box-sizing: border-box;
 }
+.handhelp-map-div{ background: transparent; width:100%; height:100%; }
 .handheld-map { display: block; cursor: zoom-in; }
 .handheld-map img.responsive-map {
     width: 100%;
